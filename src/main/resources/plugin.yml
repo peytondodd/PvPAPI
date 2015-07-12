@@ -2,7 +2,8 @@ name: PvPAPI
 version: 2.5.6
 main: ca.PvPCraft.PvPAPI.Main
 author: Undeadkillz
-softdepend: [ProtocolLib, Essentials, Vault, TabAPI, TagAPI, Factions, mcore, BarAPI, RemoteEntities]
+softdepend: [Essentials, Vault, TabAPI, TagAPI, Factions, mcore, BarAPI, RemoteEntities]
+depend: [ProtocolLib]
 description: PvPCraft very own suite of functions, and plugins all bundled into one.
 commands:
    tell:

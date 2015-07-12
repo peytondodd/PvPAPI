@@ -51,8 +51,11 @@ public class ChatListener implements Listener{
 
 			Player p = e.getPlayer();
 
-			if ((Main.BanManageEnable && BanManage.isMuted(e.getPlayer())))
-				e.setCancelled(true);
+			if (Main.BanManageEnable) {
+				if(BanManage.isMuted(e.getPlayer())) {
+					e.setCancelled(true);
+				}
+			}
 
 			if (Announcements.MessagesModify.containsKey(p.getName())){
 				if (Announcements.MessagesModify.get(p.getName()).equalsIgnoreCase("add")){

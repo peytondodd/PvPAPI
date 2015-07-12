@@ -464,7 +464,6 @@ public class Main extends JavaPlugin implements PluginMessageListener {
 		 */
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void refreshConfigEntries(Main plugin) {
 		// TODO Auto-generated method stub
 		FileConfiguration conf = Files.config.getCustomConfig();
