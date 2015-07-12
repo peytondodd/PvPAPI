@@ -1,0 +1,136 @@
+name: PvPAPI
+version: 2.5.6
+main: ca.PvPCraft.PvPAPI.Main
+author: Undeadkillz
+softdepend: [ProtocolLib, Essentials, Vault, TabAPI, TagAPI, Factions, mcore, BarAPI, RemoteEntities]
+description: PvPCraft very own suite of functions, and plugins all bundled into one.
+commands:
+   tell:
+      description: Private message other users
+      usage: /<command>
+      aliases: [message,pm,whisper,w,m,t,msg]
+   gm:
+      description: Manage gamemode status for players.
+      usage: /<command>
+      aliases: [gamemode]
+   feedback:
+      description: Submit feedback about the server.
+      usage: /<command>
+      aliases: [fb]
+   reply:
+      description: Reply to previous private message.
+      usage: /<command>
+      aliases: [r]
+   tutorial:
+      description: Teleport to tutorial room.
+      usage: /<command>
+      aliases: [tut]
+   tpall:
+      description: Teleport everyone to user.
+      usage: /<command>
+   tp:
+      description: Teleport users around the server.
+      usage: /<command>
+   socialspy:
+      description: View in-game private messages
+      usage: /<command>
+      aliases: [ss]
+   teleports:
+      description: Manage server-cross teleports
+      usage: /<command>
+   am:
+      description: Auto Announcement Management.
+      usage: /<command>
+   tm:
+      description: Tutorial management.
+      usage: /<command>
+   contests:
+      description: Contest entry & management panel
+      usage: /<command>
+   tpa:
+      description: Teleport request to user.
+      usage: /<command>
+   tpaccept:
+      description: Teleport accept last request.
+      usage: /<command>
+      aliases: [tpyes, tpaaccept]
+   tpdeny:
+      description: Teleport deny last request.
+      usage: /<command>
+      aliases: [tpno, tpadeny]
+   nickname:
+      description: Change your nickname globally.
+      usage: /<command>
+      aliases: [nick, nn]
+   roll:
+      description: Roll the magic dice for daily rewards.
+      usage: /<command>
+      aliases: [rtd, rollthedice, ricknroll]
+   pve:
+      description: Toggle PVE
+      usage: /<command>
+   pvp:
+      description: Toggle PVP
+      usage: /<command>
+   say:
+      description: Broadcast a message across the whole server.
+      usage: /<command>
+      aliases: [broadcast]
+   buy:
+      description: Purchase menu for PvPKillz Servers
+      usage: /<command>
+      aliases: [purchase, webshop]
+   servers:
+      description: View servers menu
+      usage: /<command>
+      aliases: [serverlist, minigames]
+   setworldspawn:
+      description: Set the world spawn
+      usage: /<command>
+   ignore:
+      description: Block communication from another user.
+      usage: /<command>
+      aliases: [deny, block, unblock]
+   refer:
+      description: Invite user into PvPKillz.
+      usage: /<command>
+      aliases: [invite]
+   fakeplayer:
+      description: Fake player/entity creation.
+      usage: /<command>
+   invsee:
+      description: View another players inventory.
+      usage: /<command> <target>
+   ghostmode:
+      description: Toggle ghostmode so that you can spectate users.
+      usage: /<command> [target]
+   convertids:
+      description: Convert the IDs
+      usage: /<command>
+   signedit:
+      description: Edit signs without bringing them down.
+      usage: /<command> <line> <Text>
+   stats:
+      description: Display local stats for the gamemode.
+      usage: /<command> [User]
+   topstats:
+      description: Display local top stats for the gamemode.
+      usage: /<command> [User]
+   changeskin:
+      description: Change your skin in-game.
+      usage: /<command>
+   enchantfake:
+      description: Fake enchant an item (Toggleable)
+      usage: /<command>
+   nameitem:
+      description: Change item name
+      usage: /<command>
+   descitem:
+      description: Change item description
+      usage: /<command>
+   feedbacks:
+      description: Reply to or view feedbacks!
+      usage: /<command>
+   challenge:
+      description: A challenge system for the pros!
+      usage: /<command>

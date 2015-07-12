@@ -1,0 +1,20 @@
+PvP:
+  - '%dam has slain %def.'
+PvP-Bow:
+  - '%dam has pinned down %def.'
+Fall:
+  - '%def fell from somewhere in the sky...'
+Explode:
+  - '%def attempted to recreate a creeper explosion.'
+Drown:
+  - '%def forgot to breath meanwhile underwater.'
+Poison:
+  - '%def was poisoned.'
+Fire:
+  - '%def was not hot enough to handle fire.'
+Suicide:
+  - '%def has suicidal thoughts.'
+FallBlock:
+  - '%def forgot to move out of the block?'
+Lightning:
+  - '%def was struck by lightning.'

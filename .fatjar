@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Aug 25 21:03:54 PDT 2014
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=PvPAPI.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|PermissionsEx.jar>;<jar|NoCheatPlus.jar>;<jar|WorldEdit.jar>;<jar|DisguiseCraft.jar>;<jar|Factions.jar>;<jar|mcore-7.1.0.jar>;<jar|BanManager.jar>;<jar|TabAPI.jar>;<jar|spigot-api-1.7.10-R0.1-SNAPSHOT.jar>;<jar|spigot-1.7.10-R0.1-SNAPSHOT.jar>;<jar|bonecp-0.8.0-rc1.jar>;<jar|guava-13.0.1.jar>;<jar|slf4j-api-1.7.2.jar>;<jar|lombok-1.14.4.jar>;<jar|cglib-nodep-3.1.jar>;<jar|tagapi-3.0.jar>;<jar|bitlyj-2.0.0.jar>
+includes=

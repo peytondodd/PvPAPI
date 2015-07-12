@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/Commands/AdminCommands.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/Commands/PlayerCommands.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/Main.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/enums/SignInfo.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/methods/ProtocolLib.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/methods/Tab.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/methods/itemModifications.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/methods/serverPinging/ServerSignManagement.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/methods/serverPinging/hubMethods.java=UTF-8
+encoding//src/main/java/kz/PvP/PvPAPI/utilities/Message.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8

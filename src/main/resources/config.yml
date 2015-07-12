@@ -1,0 +1,60 @@
+#########################################################################################################################
+#												MySQL Configuration														#
+#########################################################################################################################
+Mysql:
+  Enable: false
+  Host:
+  TableName:
+  User:
+  Password:
+#########################################################################################################################
+#												Factions Configuration													#
+#########################################################################################################################
+Factions:
+# Percentage of the money the person who dies loses to their opponent.
+  moneyLossPercent: 5
+#########################################################################################################################
+#												Global Configuration													#
+#########################################################################################################################
+Global:
+  QuitMsg: true
+  JoinMsg: true
+  delayedTeleport: 0
+  ServerName: DefaultServer
+  ShopWebsite: http://donatepvpcraft.enjin.com
+  NickNamePrefix: '≈'
+  EnableKillsStats: false
+  EnableServerTeleports: true
+  EnableSignTeleports: false
+  BlockedCommands: {}
+  AliasCommands: {}
+Announcements:
+  Messages:
+  - 'Message #1'
+  - 'Message #2'
+  DefaultDelay: 60
+Titles:
+  Enable: false
+  Messages:
+  - 'Message #1'
+  - 'Message #2'
+  DefaultDelay: 1
+Rewards:
+  DailyRoll: false
+Tutorials:
+  Enabled: false
+  ColumnName: FinishedTutorial
+Drops:
+  Disable: false
+  Filter: {}
+PotionEffects:
+  Enable: true
+  PotionsOnJoin: {}
+Scoreboard:
+  Enable: false
+  Title: PvPCraft
+  enableHP: false
+  Titles: {}
+MOTD:
+  - 'Welcome %player!'
+  
